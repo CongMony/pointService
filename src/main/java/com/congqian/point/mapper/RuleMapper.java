@@ -6,5 +6,5 @@ package com.congqian.point.mapper;
  * @author: Cong.Qian
  * @create: 2018-07-15 00:31
  **/
-public class RuleMapper {
+public interface RuleMapper {
 }
