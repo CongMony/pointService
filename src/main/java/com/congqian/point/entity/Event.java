@@ -1,7 +1,7 @@
 package com.congqian.point.entity;
 
 import lombok.Data;
-
+import java.util.Date;
 /**
  * @program: point
  * @description:事件
@@ -10,4 +10,9 @@ import lombok.Data;
  **/
 @Data
 public class Event {
+   private String dutyID;
+    private String ruleType;
+    private Date date;
+    private String description;
+    private String commitID;
 }
