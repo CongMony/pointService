@@ -1,6 +1,7 @@
 package com.congqian.point.entity;
 
 import lombok.Data;
+import java.util.Date;
 
 /**
  * @program: point
@@ -10,4 +11,10 @@ import lombok.Data;
  **/
 @Data
 public class Rule {
+    private String id;
+    private String name;
+    private String description;
+    private Double score;
+    private Date addDate;
+    private String ruleSource;
 }
