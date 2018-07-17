@@ -10,9 +10,19 @@ import java.util.Date;
  **/
 @Data
 public class Event {
-   private String dutyID;
-    private String ruleType;
-    private Date date;
-    private String description;
-    private String commitID;
+  private String id;
+
+ private String description;
+
+ private String rule_id;
+
+ private String duty_user_id;
+
+ private Date record_date;
+
+ private String source;
+
+ private String record_user_id;
+
+ private String name;
 }
